@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SEO Meta descriptions (70 a 320 caracteres) keywords - open graph - author-->
+    <meta name="descriptions="
+        content="Ignacio Sanchez - Proyecto CoderHouse - Web Developer Portfolio & Media Surf fotografia y videos.">
+    <meta name="keywords" content="surf, web developer, porfolio, waves, olas, ondas, sur, mar, sea, oceano">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/wave.png" type="image/x-icon">
+
+    <!-- Bootstrat incia -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!--SEO title : 35 a 65 caracteres-->
+
+    <title>Ignacio Sanchez - Portfolio Web Developer & Media Surf</title>
+</head>
+
+<body>
+
+    <!-- comienza navbar -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-primary">Ignacio</span> Sanchez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nosotros.html">A cerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carrusel comienza -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/mentawai.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mentawais, Indonesia</h5>
+                    <p>Si crees que ya es hora de hacer el mejor viaje de surf de tu vida, organiza un recorrido por los mejores puntos de Mentawai y disfruta de la mayor concentración de olas perfectas del mundo.</p>
+                    <a href="#" class="btn btn-primary mt-3">Mas info</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/hawaii.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pipeline, Hawaii</h5>
+                    <p>La ola de Pipeline Hawaii es uno de los lugares más famosos para practicar surf, pero también uno de los más peligrosos y que más vidas de surfistas se ha cobrado.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/snappers.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Snappers Rocks, Australia</h5>
+                    <p>Este punto es la joya de la costa este de Australia, una barra de derecha que por sus buenos fondos de arena y ondulacion es sin duda una de las 10 mejores derechas del mundo</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="about section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="img/ola5.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h2>Fotografia del mar</h2>
+                        <p>La originalidad del tema es que el mar, según el clima y el momento del día, provoca que las fotografías tengan apariencias diferentes, los paisajes marinos nos muestran distintas caracteristicas segun su ubicacion.</p>
+                        <a href="#" class="btn btn-primary">Mas info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+
+    <section class="services section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Servicios</h2>
+                        <p>Ofrecemos contenido de la mejor calidad y definicion, fotografia, videos y desarrollo web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-fotos"></i>
+                            <div class="img-aria mb-4">
+                                <img src="img/tortuga.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title">Fotografia</h3>
+                            <p class="lead">Hacemos sesiones fotograficas con camaras de ultima generacion, guarda tus memorias en la mejor calidad. </p>
+                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-videos"></i>
+                            <div class="img-aria mb-4">
+                                <img src="img/videofoto.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title">Videos</h3>
+                            <p class="lead">Sesiones de grabación de surf, captura los momentos dentro del mar.</p>
+                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-web"></i>
+                            <div class="img-aria mb-4">
+                                <img src="img/web-design.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title">Web Design</h3>
+                            <p class="lead">Consultanos por nuestros servicios de diseño web y desarrollo. Crea tu propia web y empeza a ampliar tu negocio.</p>
+                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portfolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Galeria</h2>
+                        <p>Visita nuestra galeria, podras ver nuestro contenido y calidad de trabajo en nuestros distintos servicios de fotografia de paisajes, videos y retratos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-aria mb-4">
+                                <img src="img/ola4.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Paisajes</h3>
+                            <p class="lead">Paisajes, medio ambiente y fondos de pantallas.</p>
+                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-aria mb-4">
+                                <img src="img/surf.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Videos</h3>
+                            <p class="lead">Capturamos en secuencias y videos slowmotion dentro del tubo.</p>
+                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-aria mb-4">
+                                <img src="img/sunshine.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Retratos</h3>
+                            <p class="lead">Realizamos fotos de primera plana, retratos y personalizadas.</p>
+                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- nosotros -->
+
+    
+    <section class="team section-padding">
+        <div class= "container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Acerca de mi</h2>
+                        <p>Mi pasión por el océano y por estar en el agua comenzo desde temprana edad dedicando horas a
+                            la natación y al bodysurf en mis dos años vividos en Brasil donde trabaje de guardavidas. <br>
+                            Con el mar me di cuenta que la vida es simple, solo el presente. Esta pagina web la
+                            creo con el fin de guardar memorias del oceano y las personas que disfrutamos de él.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container-fluid bg-dark">
+                <div class="card-body text-white">
+                    <div class="row">
+                        <div class="col-sm-6 nleft">
+                            <img src="../img/GOPR07145.JPG" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-6 text-center nright">
+                            <h3 class="card-title py-2">Ignacio D. Sanchez</h3>
+                            <p class="card-text">Argentino, nacido en 1992. Egresado de escuela técnica en la
+                                especialidad de mecánica. Guardavidas, pasión por los ambientes acuaticos y estudiante
+                                de desarrollo web.</p>
+                            <p class="socials">
+                                <!-- Linkedin -->
+                                <a class="btn btn-primary" href="https://www.linkedin.com/in/ignacio-d-sanchez-b870181ab" role="button">
+                                    <i class="fab fa-linkedin-in"></i></a>
+
+                                <!-- Youtube -->
+                                <a class="btn btn-primary" href="https://www.youtube.com/channel/UCwMJCpOL13fg1gItgWNY8NA" role="button">
+                                    <i class="fab fa-youtube"></i></a>
+
+                                <!-- Facebook -->
+                                <a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=100004845910150" role="button">
+                                    <i class="fab fa-facebook-f"></i></a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        
+        </div>
+
+
+    </section>
+
+    <section class="contact section-padding">
+
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Contacto</h2>
+
+                        <p>
+                            Dejanos tu consulta, respondemos en brevedad. <br> Realizamos un servicio personalizado y con dedicación. No dudes en escribirnos.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="bg-dark p-2 text-center pt-5 pb-4">
+    
+            <div class="container text-center text-md-start">
+                <div class="row text-center text-md-start">
+    
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+    
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                        <hr class="mb-4">
+                        <p>Realizamos un servicio personalizado y con dedicación. No dudes en escribirnos.</p>
+                    </div>
+    
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-primary" > Web Page</h5>
+                        <hr class="mb-4">
+                        <p>
+                            <a href="#" class="text-dark">Home</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-dark">Servicios</a>
+                        </p>
+                        <p>
+                            <a href="pages/galeria.html" class="text-dark">Galeria</a>
+                        </p>
+                        <p>
+                            <a href="pages/nosotros.html" class="text-dark">A cerca de mi</a>
+                        </p>
+                        <p>
+                            <a href="pages/contacto.html" class="text-dark">Contacto</a>
+                        </p>
+                    </div>
+    
+    
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-primary" >Contacto</h5>
+                        <hr class="mb-4">
+                        <p class="text-light">
+                            <li class="fas fa-home me-3 text-primary"> <br> Coolangata, Queensland</li>
+                        </p>
+    
+                        <p class="text-light">
+                            <li class="fas fa-envelope me-3 text-primary"> <br> ignaciodavid@gmail.com</li>
+                        </p>
+    
+                        <p class="text-light">
+                            <li class="fas fa-phone me-3 text-primary"> <br> +54 9 00 000-0006 </li>
+                        </p>
+    
+                        <p class="text-light">
+                            <li class="fas fa-print me-3 text-primary"> <br> +54 9 00 000-0006 </li>
+                        </p>
+                        
+                    </div>
+    
+                    <hr class="mb-4">
+    
+                    <div class="text-center text-primary mb-2">
+                        <p>Copyright. Todos los derechos reservados.
+                        <hr>
+                
+                            Ignacio Sanchez
+                        </p>
+                    </div>
+    
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline">
+    
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/profile.php?id=100004845910150" class="text-primary">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/ignacio-d-sanchez-b870181ab" class="text-primary">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/ignaciodsanchez" class="text-primary">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/channel/UCwMJCpOL13fg1gItgWNY8NA" class="text-primary">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+            
+        </footer>
+    
+        <!-- Bootstrap fin -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    
+    </body>
+    
+    </html>
